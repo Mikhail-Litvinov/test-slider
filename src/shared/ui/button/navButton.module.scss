@@ -1,0 +1,19 @@
+.navbutton {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #42567A;
+    background-color: #F4F5F9;
+    border-radius: 100%;
+    cursor: pointer;
+    stroke: #42567A;
+    stroke-width: 2px;
+    &:disabled {
+        stroke: #42567A80;
+        border-color: #42567A80;
+    }
+    @media (min-width: 360px) and (max-width: 1023px) {
+        width: 25px;
+        height: 25px;
+    }
+}

@@ -1,0 +1,33 @@
+.container {
+    position: absolute;
+    left: 0;
+    top: 170px;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    @media (min-width: 360px) and (max-width: 1023px) {
+        position: relative;
+        top: unset;
+    }
+    .gradientLine {
+        width: 5px;
+        background: linear-gradient(180deg, rgba(56, 119, 238, 1) 0%, rgba(239, 93, 168, 1) 100%);
+        @media (min-width: 360px) and (max-width: 1023px) {
+                display: none;
+            }
+    }
+    h1 {
+        margin-left: 76px;
+        color: #42567A;
+        line-height: 67.2px;
+        font-size: 56px;
+        max-width: 400px;
+        box-sizing: content-box;
+        @media (min-width: 360px) and (max-width: 1023px) {
+           font-size: 20px;
+           line-height: 24px; 
+           margin-left: 0;
+           max-width: 150px;
+        }
+    }
+}

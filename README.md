@@ -2,7 +2,25 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+1. Install packages:
+
+```bash
+npm i
+```
+
+2. Create file .env.local in the project folder with following structure:
+
+```bash
+DB_HOST=localhost
+DB_USER=your_login
+DB_PASSWORD=your_password
+DB_NAME=your_database_name
+DB_PORT=3306
+```
+
+update it with cridentials
+
+3. Run the development server:
 
 ```bash
 npm run dev

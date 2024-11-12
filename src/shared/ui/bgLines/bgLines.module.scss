@@ -1,0 +1,19 @@
+.horizontal {
+    position: absolute;
+    height: 1px;
+    width: 100vw;
+    background-color: #42567A1A;
+    @media (min-width: 360px) and (max-width: 1023px) {
+            display: none;
+        }
+}
+
+.vertical {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: #42567A1A;
+    @media (min-width: 360px) and (max-width: 1023px) {
+            display: none;
+        }
+}

@@ -1,0 +1,26 @@
+.container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    @media (min-width: 360px) and (max-width: 1023px) {
+        bottom: unset;
+    }
+
+    div {
+        display: flex;
+        gap: 20px;
+        @media (min-width: 360px) and (max-width: 1023px) {
+                gap: 10px;
+        }
+    }
+
+    span {
+        font-size: 14px;
+        color: #42567A;
+        padding-bottom: 20px;
+        display: block;
+        @media (min-width: 360px) and (max-width: 1023px) {
+            padding-bottom: 10px;
+        }
+    } 
+}

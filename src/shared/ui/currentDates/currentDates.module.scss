@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .date {
+        position: absolute;
+        font-size: 200px;
+        pointer-events: none;
+        z-index: 0;
+        @media (min-width: 360px) and (max-width: 1023px) {
+            font-size: 56px;
+            font-weight: 700;
+            position: unset;
+            transform: translateX(0) !important;
+        }
+    }
+        :nth-child(1) {
+            left: 0%;
+            color: #9DBEFD;
+        }
+    
+        :nth-child(2) {
+            right: 0%;
+            color: #f05ea9;
+        }
+}
