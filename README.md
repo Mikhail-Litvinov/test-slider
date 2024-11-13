@@ -18,7 +18,7 @@ DB_NAME=your_database_name
 DB_PORT=3306
 ```
 
-update it with cridentials
+update it with credentials
 
 3. Run the development server:
 
